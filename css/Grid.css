@@ -1,0 +1,23 @@
+body {
+    padding: 50px;
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  .grid {
+    margin: 1em 0;
+    border: 5px solid rgb(111,41,97);
+    display: grid;
+    grid-template-columns: fit-content(300px) 1fr;
+    width: 900px;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  .grid h2{
+    color: #555;
+    font-size: 19px;
+    text-align: justify;
+  }
